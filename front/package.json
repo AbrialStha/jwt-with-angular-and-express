@@ -1,0 +1,14 @@
+{
+  "name": "front",
+  "version": "1.0.0",
+  "description": "front for angular jwt auth",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abiral Sthapit",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.5.8"
+  }
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html ng-app="MyApp" lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Angular jwt example</title>
+	<script src="node_modules/angular/angular.js"></script>
+</head>
+<body>
+
+	<div ng-controller="MainCtrl">
+	<h2>{{ user.username }}</h2>
+	<button ng-click="logout()">Logout</button>
+		<div>
+			<form ng-submit="login( UserName, Password )">
+				<label>Username:<input type="text" name="username" ng-model="UserName"></label><br>
+				<label>password:<input type="text" name="password" ng-model="Password"></label><br>
+				<button type="submit">Login</button>
+			</form>
+		</div>
+		<button ng-click="getRandomUser()">Get User</button>
+		<pre ng-bind="randomUser | json"></pre>
+	</div>
+
+<script src="app.js"></script>
+</body>
+</html>
