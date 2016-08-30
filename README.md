@@ -1,5 +1,5 @@
 # jwt-with-angular-and-express
-To install run the np install on both the folder as both are constructed individually
+To install run the npm install on both the folder as both are constructed individually
 
 ##front
 The front contains the angular part
